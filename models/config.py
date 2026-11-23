@@ -18,7 +18,7 @@ class MQDepthConfig:
     depth_max: float = 512.0
     size_multiple: int = 32
     geometry_max_aspect_ratio: float = 2.0
-    moge2_cls_token: bool = True
+    moge2_cls_token: bool = False
 
     @classmethod
     def from_directory(cls, directory: str | Path) -> "MQDepthConfig":
