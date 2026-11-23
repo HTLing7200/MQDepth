@@ -2,7 +2,7 @@
 
 This repository provides the inference code for MQDepth (ACM MM 2026), a metric depth estimation method for RGB images.
 
-The indoor and outdoor variants mainly differ in their maximum encoded depth: **50 m for indoor scenes** and **512 m for outdoor scenes**. Compared with the earlier version, this release adopts Vision Banana-style depth color encoding instead of three-channel grayscale images. We use the original image aspect ratio instead of explicitly encoding the stretch ratio.
+The indoor and outdoor variants mainly differ in their maximum encoded depth: 50 m for indoor scenes and 512 m for outdoor scenes. Compared with the earlier version, this release adopts Vision Banana-style depth color encoding instead of three-channel grayscale images. We use the original image aspect ratio instead of explicitly encoding the stretch ratio.
 
 Outdoor inference is currently available. Indoor inference code and model checkpoints will be released separately.
 
